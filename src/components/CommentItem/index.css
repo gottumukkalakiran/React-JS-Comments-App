@@ -1,0 +1,127 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.comment-item {
+  list-style-type: none;
+}
+
+.comment-container {
+  display: flex;
+}
+
+.initial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  margin-top: 18px;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+.initial {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.username-time-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.username {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #334155;
+}
+
+.time {
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-left: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #94a3b8;
+}
+
+.comment {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #64748b;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.like-container {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #7e858e;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.like-image {
+  height: 20px;
+  width: 20px;
+  margin-right: 8px;
+}
+
+.active {
+  color: #0ea5e9;
+}
+
+.delete {
+  height: 20px;
+  width: 20px;
+}
+
+.comment-line {
+  width: 100%;
+  border: 1px solid #dee0e3;
+}
